@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h3 @click="$emit('pass',666)">{{msg}}</h3>
-    <slot name="num"></slot>
+      <h1>Welcome!</h1>
   </div>
 </template>
 

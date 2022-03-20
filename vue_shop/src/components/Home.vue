@@ -40,19 +40,14 @@
       <!-- 右侧内容主体 -->
       <el-main>
         <!-- 路由占位符 -->
-        <router-view :msg='msg' @pass='handle($event)'><div slot="num">123</div></router-view>
-        <!-- <Welcome :msg='msg'></Welcome> -->
+        <router-view></router-view>
       </el-main>
     </el-container>
   </el-container>
 </template>
 
 <script>
-// import  Welcome from './Welcome.vue'
 export default {
-  // components:{
-  //   Welcome
-  // },
   data() {
     return {
       msg:'Welcome',
